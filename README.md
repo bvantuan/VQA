@@ -12,7 +12,7 @@ image and question attention simultaneously is implemented.
 
 ## Architecture
 * STEP 1: Extract image features from a pre-trained CNN (VGG19 is used here).
-![Alt text](/images/VGG.jpg?raw=true "VGG architecture")
+![Alt text](./images/VGG.jpg?raw=true "VGG architecture")
 * STEP 2: Compute word embedding, phrase embedding and question embedding
 * STEP 3: Calculate co-attended image and question features from all three levels (word, phrase, question)
 * STEP 4: Use a multi-layer perceptron (MLP) to recursively encode the attention features
@@ -41,10 +41,10 @@ report the test-dev and test-standard results from the VQA evaluation server lik
   </tr>  
 </table>
 
-Some prediction answers on the test-standard:
-![Alt text](/images/example1.png?raw=true "Example 1")
-![Alt text](/images/example2.png?raw=true "Example 2")
-![Alt text](/images/example3.png?raw=true "Example 3")
+Some prediction answers on the test-standard: \
+![Alt text](./images/example1.png?raw=true "Example 1") \
+![Alt text](./images/example2.png?raw=true "Example 2") \
+![Alt text](./images/example3.png?raw=true "Example 3") \
 
 ## Repository Files:
 * EDA.ipynb : Exploratory data analysis on the data set
