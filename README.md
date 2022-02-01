@@ -28,17 +28,26 @@ report the test-dev and test-standard results from the VQA evaluation server lik
 ## Results:
 <table>
   <tr>
-    <th> Y/N </th>
-    <th> Num </th>
+    <th> Model </th>
+    <th> Yes/No </th>
+    <th> Number </th>
 	<th> Other  </th>
 	<th> All </th>
   </tr>
   <tr>
-    <td> 66.47 </td>
-    <td> 31.8 </td>
-	<td> 32.88 </td>
-	<td> 46.69 </td>
-  </tr>  
+    <td> VGG </td>
+    <td> 66.61 </td>
+    <td> 31.39 </td>
+	<td> 33.74 </td>
+	<td> 47.02 </td>
+  </tr>
+  <tr>
+    <td> ResNet </td>
+    <td> 69.08 </td>
+    <td> 34.58 </td>
+	<td> 38.45 </td>
+	<td> 50.73 </td>
+  </tr>
 </table>
 
 Some prediction answers on the test-standard: \
